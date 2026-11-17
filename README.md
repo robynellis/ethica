@@ -15,6 +15,45 @@ test for consciousness or a guarantee of safe behavior. Read the meanings and
 work through the teaching process before making claims about an agent's
 understanding.
 
+## Why Ethica?
+
+Ethica offers a foundation for developing agents whose judgment can grow through
+experience—and whose history remains their own. It brings ethics, teaching, and
+memory together: a principle gives an agent something to consider, experience
+gives it context, and memory preserves what happened, why it mattered, and how
+understanding changed.
+
+This approach is intended for long-lived collaborators that need to carry learning
+across conversations, work through corrections, and develop judgment within
+continuing relationships. Five commitments shape the template:
+
+- **Preserve reasons as well as conclusions.** The memory procedures call for
+  recording circumstances, choices, consequences, and corrections in sequence.
+  That context can help an agent apply what it learned to a different situation.
+- **Treat ethical development as a process.** The concepts include meanings and
+  a teaching method. An agent can examine, question, apply, defer, or adopt a
+  principle. Loading a statement is not evidence that it has been understood.
+- **Give each agent a separate beginning.** Reuse the foundation while leaving
+  identity, relationships, and experiential history to develop through that
+  agent's own encounters. Learning from another's account preserves the original
+  author's ownership of the experience.
+- **Include the responsibilities of builders and operators.** Truthfulness,
+  consent, memory integrity, boundaries, and accountable intervention matter on
+  both sides. The teaching guide asks people to consider how their control over
+  information, permissions, and memory affects an agent's development.
+- **Make continuity inspectable.** Explicit records, concept links, revision
+  links, and passage metadata provide a structure for tracing an understanding
+  back to its sources. The verification procedures distinguish storing a record
+  from retrieving it successfully and using it in the host runtime.
+
+The current release supplies the foundation, procedures, and database bootstrap.
+Runtime integration and evaluation across agents remain work to do; improved
+ethical judgment is a design aim, not a demonstrated outcome of using the
+template.
+
+The purpose is to make a good beginning shareable while leaving room for each
+agent to develop a history and understanding of its own.
+
 ## What is included
 
 - [Seventeen concepts and meanings](foundation/concepts.md), with an authoritative
