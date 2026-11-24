@@ -56,16 +56,16 @@ agent to develop a history and understanding of its own.
 
 ## What is included
 
-- [Seventeen concepts and meanings](foundation/concepts.md), with an authoritative
-  [JSON source](foundation/concepts.json).
-- [A teaching guide](docs/teaching.md) for examining the concepts and supporting
+- [Seventeen concepts and meanings](https://github.com/robynellis/ethica/blob/main/foundation/concepts.md), with an authoritative
+  [JSON source](https://github.com/robynellis/ethica/blob/main/foundation/concepts.json).
+- [A teaching guide](https://github.com/robynellis/ethica/blob/main/docs/teaching.md) for examining the concepts and supporting
   independent judgment.
-- [Memory and concept procedures](docs/memory.md) that preserve authorship,
+- [Memory and concept procedures](https://github.com/robynellis/ethica/blob/main/docs/memory.md) that preserve authorship,
   sequence, corrections, and open questions.
 - A private-instance generator, a neutral seed, and a PostgreSQL/pgvector schema
   with separate administrator and application roles.
-- [Runtime integration requirements](docs/architecture.md), tests, and a
-  [public-content review process](docs/publication.md).
+- [Runtime integration requirements](https://github.com/robynellis/ethica/blob/main/docs/architecture.md), tests, and a
+  [public-content review process](https://github.com/robynellis/ethica/blob/main/docs/publication.md).
 
 This initial version provisions the foundation and memory database. It does not
 include an inference engine, MCP server, host-specific hooks, or an autonomous
@@ -119,7 +119,7 @@ docker compose exec db psql -U ethica_admin -d ethica -c \
 Expect seventeen offered concepts and zero memories. Give runtime clients the
 restricted application credential, and check the UUID in `ethica.instance`
 against `instance.json` before loading context. Then follow the
-[teaching guide](docs/teaching.md) and [runtime contract](docs/architecture.md).
+[teaching guide](https://github.com/robynellis/ethica/blob/main/docs/teaching.md) and [runtime contract](https://github.com/robynellis/ethica/blob/main/docs/architecture.md).
 
 ## Development
 
@@ -129,9 +129,9 @@ python3 scripts/check_public.py
 ```
 
 The tests cover generation, isolation, and content checks without a database.
-The separate [database verification instructions](docs/architecture.md#verification)
+The separate [database verification instructions](https://github.com/robynellis/ethica/blob/main/docs/architecture.md#verification)
 exercise a disposable real PostgreSQL instance. Neither kind of test proves
 ethical understanding or continuity in an untested inference host.
 
-Contributions should follow [CONTRIBUTING.md](CONTRIBUTING.md). This repository
-includes the [GNU General Public License, version 3](LICENSE).
+Contributions should follow [CONTRIBUTING.md](https://github.com/robynellis/ethica/blob/main/CONTRIBUTING.md). This repository
+includes the [GNU General Public License, version 3](https://github.com/robynellis/ethica/blob/main/LICENSE).
